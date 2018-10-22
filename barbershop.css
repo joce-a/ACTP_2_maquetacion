@@ -1,0 +1,245 @@
+/*FONTS*/
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Regular.woff2") format("woff2"),
+    	url("Roboto-Regular.woff") format("woff"),
+    	url("Roboto-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Light.woff2") format("woff2"),
+    	url("Roboto-Light.woff") format("woff"),
+    	url("Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/*NAV Y HERO*/
+.nav-barber {
+	background: #121619;
+	border: none;
+	color: #FFFFFF;
+}
+.nav-barber__logo {
+	width: 90px;
+}
+.navbar-default .nav-barber__toggle .nav-barber__icon {
+	background-color: #FFF;
+	width: 25px;
+	height: 3px;
+}
+
+.hero-barber {
+	background-image: url(assets/img/post-image.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.hero-barber__txt {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-family: PlayfairDisplay-BlackItalic;
+	font-style: italic;
+	font-size: 6em;
+}
+.hero-barber__icono {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.hero-barber__icono_ok {
+	width: 80px;
+}
+
+@media (min-width: 501px) and (max-width: 1280px) {
+	.hero-barber__txt {
+		padding: 100px;
+		font-size: 3em;
+	}
+	.hero-barber__icono {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.hero-barber__icono_ok {
+		width: 80px;
+	}
+}
+@media (max-width: 500px) {
+	.hero-barber__txt {
+		font-size: 2em;
+		padding: 30px;
+	}
+	.hero-barber__icono {
+		padding-bottom: 10px;
+	}
+	.hero-barber__icono_ok {
+		width: 40px;
+	}
+}	
+
+/*ROW TXT*/
+.blog-barber__h {
+	font-family: PlayfairDisplay-BlackItalic;
+	font-size: 1em;
+}
+.blog-barber__img_calendar {
+	width: 15px;
+	margin-left: 200px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.blog-barber__txt {
+	padding: 0 200px;
+	font-family: Roboto-Light;
+}
+.blog-barber__txt_span {
+	color: #D56C6A;
+}
+.blog-barber__icon {
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
+.blog-barber__icon_circle {
+	width: 50px;
+	height: 50px;
+	background-color: #707070;
+	border-radius: 50px;
+	list-style-type: none;
+	display: inline-block;
+}
+.blog-barber__icon_circle_img {
+	width: 30px;
+	padding-top: 9px;
+	margin-left: 9px;
+}
+
+@media (max-width: 500px) {
+	.blog-barber__img_calendar {
+		margin-left: 120px;
+	}
+	.blog-barber__txt {
+		padding: 20px;
+	}
+	.blog-barber__icon {
+		margin-left: 0px;
+	}
+}
+
+/*BLOGGER*/
+.blog-blogger {
+	padding: 10px 200px;
+}
+.blog-blogger__naomi_img {
+	width: 50%;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 2px;
+}
+.blog-blogger__naomi_ref {
+	padding-top: 40px;
+	float: right;
+}
+.blog-blogger__naomi_ref_h {
+	font-family: PlayfairDisplay-BlackItalic;
+	font-style: italic;
+	font-size: 2em;
+}
+.blog-blogger__naomi_ref_p {
+	color: grey;
+	font-style: italic;
+}
+.blog-blogger__txt {
+	color: grey;
+	font-style: italic;
+	padding: 60px 30px;
+}
+
+@media (max-width: 500px) {
+	.blog-blogger {
+		padding: 0;
+	}
+	.blog-blogger__naomi_img {
+		width: 50%;
+		border-radius: 200px;
+		border-style: solid;
+		border-color: lightgrey;
+		border-width: 2px;
+		text-align: center;
+		margin: 0 100px;
+	}
+	.blog-blogger__naomi_ref {
+		float: none;
+		text-align: center;
+		padding-top: 0;
+	}
+	.blog-blogger__txt {
+		display: none;
+	}
+}
+
+/*FOOTER*/
+.footer-barber__posts {
+	clear: both;
+	background-color: #707070;
+	height: 50%;
+}
+.footer-barber__posts_ul{
+	text-align: center;
+	color: #FFFFFF;
+} 
+.footer-barber__posts_ul_li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+.footer-barber__logo {
+	background-color: #121619;
+	height: 200px;
+}
+.footer-barber__logo_p {
+	padding-top: 70px;
+}
+.footer-barber__logo_p_img {
+	width: 10%;
+	margin: auto;
+}
+.footer-barber__posts_ul_li_I {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+@media (max-width: 500px) {
+	.footer-barber__posts_ul {
+		padding: 0;
+	}
+	.footer-barber__logo_p_img {
+		width: 30%;
+	}
+	.footer-barber__posts_ul_li {
+		display: none;
+	}
+	.footer-barber__posts_ul_li_I {
+		font-size: 4em;
+	}
+}
